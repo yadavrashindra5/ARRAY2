@@ -18,7 +18,7 @@ for(i=0;i<n;i++)
         arr1=arr[0];
         for(i=0;i<5;i++)
         {
-            if(i==4)
+            if(i==(n-1))
             {
                 arr[i]=arr1;
             }
@@ -31,7 +31,7 @@ for(i=0;i<n;i++)
 
         }
         }
-for(i=0;i<5;i++)//this loop is used for ascess the element of an array
+for(i=0;i<n;i++)//this loop is used for ascess the element of an array
 {cout<<"after two rotation="<<arr[i]<<"\n";
 }
     }
